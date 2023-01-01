@@ -7,31 +7,57 @@
     <title>Document</title>
 
     <style>
+
+        body{
+            background-color: yellowgreen;
+        }
+
+        .container1{
+
+            display: flex;
+            justify-content: space-evenly;
+
+        }
         
-        
+        .first-div{
+
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpXd2b3E8HCiKm3JmVV8UP5_zTlJUo1QX6eg&usqp=CAU");
+            width: 50px;
+            padding: 5px 20px 5px 20px;
+            background-size: cover;
+            background-position: center center;
+            margin: 20px;
+
+        }
+
+        .first-div h3{
+            color:rgb(255, 225, 0);
+        }
+
+        .second-div{
+            background:lightblue;
+            width: 80px;
+            padding: 5px 20px 20px 20px;
+            height: 50px;
+            margin: 20px;
+        }
 
     </style>
 </head>
 
 <body>
-    <h1>Grande Site Multimilionário</h1>
 
-    <p>
-        Todos os paulistas devem <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">
-            morrer
-        </a>!
-    </p>
-    <p>
-        <img src="https://animalbusiness.com.br/wp-content/uploads/2017/08/Foto-3-Bugio-Ruivo-DSC_5249-51.jpg" alt="macaco" height="300">
-    </p>
+    <div class="container1">
 
-    <hr>
-    
-    <p>
-        <a href="https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29165638#overview" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Howler_monkey.jpg/500px-Howler_monkey.jpg" alt="bugiu gritando" height="300">
-        </a>
-    </p>
+        <div class="first-div">
+            <h3>Hello</h3>
+        </div>
+
+        <div class="second-div">
+            <h3>Goodbye</h3>
+        </div>
+
+    </div>
 
 </body>
 </html>
