@@ -9,55 +9,73 @@
     <style>
 
         body{
-            background-color: yellowgreen;
+            background-color: rgb(241, 225, 165);
+            margin: 0;
         }
 
         .container1{
 
             display: flex;
-            justify-content: space-evenly;
 
+        }
+
+        nav{
+            background-color: rgb(240, 240, 240);
         }
         
         .first-div{
 
-            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpXd2b3E8HCiKm3JmVV8UP5_zTlJUo1QX6eg&usqp=CAU");
-            width: 50px;
-            padding: 5px 20px 5px 20px;
+            background: transparent;
+            padding: 20px 40px 20px 40px;
             background-size: cover;
             background-position: center center;
-            margin: 20px;
 
         }
 
-        .first-div h3{
-            color:rgb(255, 225, 0);
+        .first-div h2 a{
+            color:rgb(72, 49, 244);
+            text-decoration: none;
+            font-family: sans-serif;
         }
 
         .second-div{
-            background:lightblue;
-            width: 80px;
-            padding: 5px 20px 20px 20px;
-            height: 50px;
-            margin: 20px;
+            background: transparent;
+            padding: 20px 40px 20px 40px;
         }
+
+        .second-div h2 a{
+            text-decoration: none;
+            color:rgb(72, 49, 244);
+            font-family: sans-serif;
+        }
+
+        nav .container1 div:hover{
+            background: rgba(0, 0, 0, 0.1);
+        }
+
 
     </style>
 </head>
 
 <body>
 
-    <div class="container1">
+    <nav>
+        <div class="container1">
 
-        <div class="first-div">
-            <h3>Hello</h3>
+            <div class="first-div">
+                <h2><a href="#">Home</a></h2>
+            </div>
+
+            <div class="second-div">
+                <h2><a href="#">Products</a></h2>
+            </div>
+
+            <div class="second-div">
+                <h2><a href="#">About</a></h2>
+            </div>
+
         </div>
-
-        <div class="second-div">
-            <h3>Goodbye</h3>
-        </div>
-
-    </div>
+    </nav>
 
 </body>
 </html>
