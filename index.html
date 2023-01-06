@@ -11,6 +11,7 @@
         body{
             background-color: rgb(241, 225, 165);
             margin: 0;
+            font-family: sans-serif;
         }
 
         .container1{
@@ -53,6 +54,36 @@
             background: rgba(0, 0, 0, 0.1);
         }
 
+        table td, table th{
+            border: 1px solid rgb(0, 0, 0);
+            padding: 5px;
+            text-align: left;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        table caption{
+            margin-bottom: 10px;
+        }
+
+        table tfoot{
+            background-color: rgba(197, 150, 102, 0.2);
+        }
+
+        .tbl-responsive{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+        .container2{
+            margin-top: 40px;
+            margin-left: 50px;
+            display: flex;
+            justify-content: center;
+        }
 
     </style>
 </head>
@@ -76,6 +107,50 @@
 
         </div>
     </nav>
+
+    <div class="container2">
+        <div class="tbl-responsive">
+            <table>
+                <caption>Descrição para a tabela</caption>
+                <thead>
+                    <tr>
+                        <th>Título 1</th>
+                        <th>Título 2</th>
+                        <th>Título 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Info 1</td>
+                        <td>Info 3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Batata</td>
+                        <td>Walter</td>
+                        <td>André</td>
+                    </tr>
+                    <tr>
+                        <td>De</td>
+                        <td>Sá</td>
+                    </tr>
+                    <tr>
+                        <td>Barreto</td>
+                        <td>Filho</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td>Total:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td>R$500,00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
 
 </body>
 </html>
