@@ -85,6 +85,14 @@
             justify-content: center;
         }
 
+        .container3{
+            margin: 40px 0 0 20px;
+        }
+
+        label{
+            cursor:pointer;
+        }
+
     </style>
 </head>
 
@@ -150,6 +158,31 @@
                 </tfoot>
             </table>
         </div>
+    </div>
+
+    <div class="container3">
+        <form action="#" method="get" target="_blank" autocomplete="off">
+            <p>
+                <label for="nome">Name: </label>
+                <input type="text" id="nome" name="nome" placeholder="Your Name" required>
+            </p>
+            <p>
+                <label for="foda">Sou foda </label>
+                <input type="checkbox" id="foda" value="sim">
+            </p>
+            <p>
+                Gênero:<br>
+                <label for="Feminino">Feminino</label>
+                <input type="radio" id="Feminino" name="genero" value="Feminino">
+                <label for="Masculino">Masculino</label>
+                <input type="radio" id="Masculino" name="genero" value="Masculino"><label for="Nin">Outro</label>
+                <input type="radio" id="Nin" name="genero" value="Nin">
+            </p>
+            <p>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
     </div>
 
 </body>
