@@ -80,13 +80,14 @@
 
         .container2{
             margin-top: 40px;
-            margin-left: 50px;
             display: flex;
             justify-content: center;
         }
 
         .container3{
-            margin: 40px 0 0 20px;
+            margin: 40px 0 0 25px;
+            display: flex;
+            justify-content: center;
         }
 
         label{
@@ -172,11 +173,19 @@
             </p>
             <p>
                 Gênero:<br>
+
                 <label for="Feminino">Feminino</label>
                 <input type="radio" id="Feminino" name="genero" value="Feminino">
+                
                 <label for="Masculino">Masculino</label>
-                <input type="radio" id="Masculino" name="genero" value="Masculino"><label for="Nin">Outro</label>
+                <input type="radio" id="Masculino" name="genero" value="Masculino">
+
+                <label for="Nin">Outro</label>
                 <input type="radio" id="Nin" name="genero" value="Nin">
+            </p>
+            <p>
+                <label for="datetime">Data: </label>
+                <input type="datetime-local" id="datetime" name="datetime">
             </p>
             <p>
                 <button type="reset">Reset</button>
