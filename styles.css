@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(241, 225, 165);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container1{
+
+    display: flex;
+
+}
+
+nav{
+    background-color: rgb(240, 240, 240);
+}
+
+.first-div{
+
+    background: transparent;
+    padding: 20px 40px 20px 40px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.first-div h2 a{
+    color:rgb(72, 49, 244);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.second-div{
+    background: transparent;
+    padding: 20px 40px 20px 40px;
+}
+
+.second-div h2 a{
+    text-decoration: none;
+    color:rgb(72, 49, 244);
+    font-family: sans-serif;
+}
+
+nav .container1 div:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+table td, table th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table caption{
+    margin-bottom: 10px;
+}
+
+table tfoot{
+    background-color: rgba(197, 150, 102, 0.2);
+}
+
+.tbl-responsive{
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.container2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container3{
+    margin: 40px 0 0 25px;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    cursor:pointer;
+}
